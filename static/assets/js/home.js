@@ -14,7 +14,7 @@ if (
   const popup = open("about:blank", "_blank");
   if (!popup || popup.closed) {
     alert(
-  "Our website uses cookies. By continuing, you agree to our terms and conditions."
+  "Our website uses cookies. By continuing, you agree to our terms and conditions.\n\nBy using Interstellar services, you confirm you have read and agreed to the terms listed in our Terms of Service and Privacy Policy, which can be found on the bottom of the settings page."
     );
 
   } else {
@@ -23,10 +23,10 @@ if (
     const style = iframe.style;
     const link = doc.createElement("link");
 
-    const name = localStorage.getItem("name") || "Canvas Timeline";
+    const name = localStorage.getItem("name") || "My Drive - Google Drive";
     const icon =
       localStorage.getItem("icon") ||
-      "https://ssl.gstatic.com/docs/doclist/images/";
+      "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png";
 
     doc.title = name;
     link.rel = "icon";
@@ -192,9 +192,6 @@ function getRandomUrl() {
   const randomUrls = [
     "https://www.desmos.com/testing/virginia/graphing",
     "https://va-roan-psv.edupoint.com/",
-    "https://launchpad.classlink.com/rcs/",
-    "https://launchpad.classlink.com/rcs/",
-    "https://launchpad.classlink.com/rcs/",
     "https://launchpad.classlink.com/rcs/",
     "https://youtube.com/",
   ];
