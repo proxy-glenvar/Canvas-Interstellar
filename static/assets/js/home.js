@@ -14,7 +14,7 @@ if (
   const popup = open("about:blank", "_blank");
   if (!popup || popup.closed) {
     alert(
-  "Please allow popups for this site. Doing so will allow us to open the site in a about:blank tab and preventing this site from showing up in your history. You can turn this off in the site settings.\n\nBy using Interstellar services, you confirm you have read and agreed to the terms listed in our Terms of Service and Privacy Policy, which can be found on the bottom of the settings page."
+  "Our website uses cookies. By continuing, you agree to our terms and conditions."
     );
 
   } else {
@@ -23,10 +23,10 @@ if (
     const style = iframe.style;
     const link = doc.createElement("link");
 
-    const name = localStorage.getItem("name") || "My Drive - Google Drive";
+    const name = localStorage.getItem("name") || "Canvas Timeline";
     const icon =
       localStorage.getItem("icon") ||
-      "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png";
+      "https://ssl.gstatic.com/docs/doclist/images/";
 
     doc.title = name;
     link.rel = "icon";
