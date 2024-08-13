@@ -24,11 +24,11 @@ if (nav) {
       </div>
     </div>
     <div class="fixed-nav-bar-right">
-      <a class="navbar-link" href="/./gm"><i class="fa-solid fa-gamepad navbar-icon"></i><an>Cale</an><an>ndar</an></a>
-      <a class="navbar-link" href="/./as"><i class="fa-solid fa-phone navbar-icon"></i><an>Cla</an><an>sses</an></a>
-      <a class="navbar-link" href="/./ts"><i class="fa-solid fa-folder navbar-icon"></i><an>Upco</an><an>ming</an></a>
-      ${window.top.location.pathname === "/ta" ? "" : '<a class="navbar-link" href="/./ta"><i class="fa-solid fa-laptop navbar-icon"></i><an>Tuto</an><an>ring</an></a>'}
-      <a class="navbar-link" href="/./st"><i class="fa-solid fa-gear navbar-icon settings-icon"></i><an>Acc</an><an>ount</an></a>
+      <a class="navbar-link" href="/./gm"><i class="fa-solid fa-gamepad navbar-icon"></i><an>acc</an><an>ount</an></a>
+      <a class="navbar-link" href="/./as"><i class="fa-solid fa-phone navbar-icon"></i><an>Dash</an><an>board</an></a>
+      <a class="navbar-link" href="/./ts"><i class="fa-solid fa-folder navbar-icon"></i><an>Cale</an><an>ndar</an></a>
+      ${window.top.location.pathname === "/ta" ? "" : '<a class="navbar-link" href="/./ta"><i class="fa-solid fa-laptop navbar-icon"></i><an>In</an><an>box</an></a>'}
+      <a class="navbar-link" href="/./st"><i class="fa-solid fa-gear navbar-icon settings-icon"></i><an>His</an><an>tory</an></a>
     </div>`;
   nav.innerHTML = html;
 }
