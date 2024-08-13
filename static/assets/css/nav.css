@@ -7,35 +7,36 @@
     left: 0;
     bottom: 0;
     width: 120px; /* Adjusted width */
-    padding: 20px 0; /* Adjusted padding */
+    padding: 10px 0; /* Reduced padding */
     box-sizing: border-box;
     background-color: var(--background-nav);
     box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
     z-index: 100;
     position: fixed;
     display: flex;
-    flex-direction: column; /* Align items in column */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items at the top */
 }
 
 .fixed-nav-bar #icon-container {
-    margin-bottom: 30px; /* Space below the top icon */
+    margin-bottom: 20px; /* Space below the top icon */
 }
 
 .fixed-nav-bar .icon {
     text-transform: uppercase;
-    font-size: 12px; /* Adjusted font size */
+    font-size: 10px; /* Further reduced font size */
     font-family: "Inter", sans-serif;
     cursor: pointer;
     color: var(--text-primary);
     font-weight: 600;
-    margin-bottom: 20px; /* Adjusted space between links */
+    margin-bottom: 15px; /* Adjusted space between links */
     font-style: normal;
     text-decoration: none;
     transition: all 0.2s ease;
     display: flex;
     align-items: center;
-    flex-direction: column; /* Stack icon and text vertically */
+    flex-direction: column;
 }
 
 .fixed-nav-bar .icon:hover {
@@ -43,7 +44,7 @@
 }
 
 .fixed-nav-bar .navbar-icon {
-    font-size: 24px; /* Adjusted icon size */
+    font-size: 20px; /* Reduced icon size */
     margin-bottom: 5px; /* Space between icon and text */
 }
 
@@ -56,13 +57,13 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 14px; /* Adjust the font size as needed */
-    margin-bottom: 20px; /* Adjust the spacing between links */
+    font-size: 12px; /* Adjusted the font size */
+    margin-bottom: 15px; /* Adjusted the spacing between links */
     transition: color 0.2s ease;
 }
 
 .fixed-nav-bar .navbar-link:hover {
-    color: var(--hover-color); /* Change color on hover */
+    color: var(--hover-color);
 }
 
 .fixed-nav-bar-right {
