@@ -5,14 +5,14 @@
 }
 
 .title {
-	font-size: 10vh;
+	font-size: 4vh; /* Adjusted for smaller space */
 	color: var(--text-primary);
 	font-family: "Inter", sans-serif;
 	text-align: center;
 	text-transform: uppercase;
 	border-radius: 0px 0px 5px 5px;
-	margin-top: 30vh;
-	margin-bottom: 5vh;
+	margin-top: 15vh; /* Reduced margin for smaller space */
+	margin-bottom: 2vh; /* Reduced margin */
 	transition: 0.35s ease;
 	text-shadow: 2px 4px 6px rgb(0, 0, 0, 0.2);
 }
@@ -25,8 +25,8 @@
 @media (orientation: portrait) {
 	.title {
 		position: relative;
-		top: -10vw;
-		font-size: 10vw;
+		top: -5vw;
+		font-size: 5vw; /* Adjusted for smaller screen width */
 		color: var(--text-primary);
 		font-family: "Inter", sans-serif;
 		text-align: center;
@@ -44,23 +44,23 @@
 }
 
 .main-search {
-	width: 50vw;
-	height: 5vh;
+	width: 80%; /* Adjusted width to fit narrower sidebar */
+	height: 4vh; /* Reduced height */
 	font-family: "Poppins", sans-serif;
-	font-size: 16px;
-	box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+	font-size: 12px; /* Reduced font size */
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2); /* Slightly reduced shadow */
 	background: var(--background-input);
 	-webkit-backdrop-filter: var(--backdrop-filter);
 	backdrop-filter: var(--backdrop-filter);
 }
 
 input {
-	padding: 20px;
-	width: 550px;
+	padding: 10px; /* Reduced padding */
+	width: 100%; /* Full width of container */
 	border-radius: 5px;
 	background: var(--background-column);
 	text-align: center;
-	font-size: 24px;
+	font-size: 18px; /* Adjusted font size */
 	border: none;
 	outline: none;
 	color: var(--text-primary);
@@ -91,8 +91,9 @@ input {
 
 #splash {
 	color: var(--text-dark);
-	margin-bottom: 1em;
-	margin-top: -2em;
+	margin-bottom: 0.5em; /* Reduced margin */
+	margin-top: -1em; /* Adjusted margin */
 	padding: 0;
 	font-family: "Poppins", sans-serif;
+	font-size: 14px; /* Adjusted font size */
 }
