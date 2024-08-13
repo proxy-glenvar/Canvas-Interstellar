@@ -25,7 +25,7 @@ img {
     left: 0;
     bottom: 0;
     width: 120px; /* Adjusted width to match the image */
-    height: 100vh; /* Full height */
+    height: 50vh; /* Full height */
     padding: 20px 0; /* Adjusted padding */
     box-sizing: border-box;
     background-color: var(--background-nav);
