@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 120px; /* Adjusted width */
+    width: 85px; /* Adjusted width */
     padding: 10px 0; /* Reduced padding */
     box-sizing: border-box;
     background-color: var(--background-nav);
@@ -20,7 +20,7 @@
 }
 
 .fixed-nav-bar #icon-container {
-    margin-bottom: 20px; /* Space below the top icon */
+    margin-bottom: 0px; /* Space below the top icon */
 }
 
 .fixed-nav-bar .icon {
@@ -30,7 +30,7 @@
     cursor: pointer;
     color: var(--text-primary);
     font-weight: 600;
-    margin-bottom: 15px; /* Adjusted space between links */
+    margin-bottom: 10px; /* Adjusted space between links */
     font-style: normal;
     text-decoration: none;
     transition: all 0.2s ease;
@@ -57,8 +57,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 12px; /* Adjusted the font size */
-    margin-bottom: 15px; /* Adjusted the spacing between links */
+    font-size: 5px; /* Adjusted the font size */
+    margin-bottom: 5px; /* Adjusted the spacing between links */
     transition: color 0.2s ease;
 }
 
