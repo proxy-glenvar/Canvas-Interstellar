@@ -65,9 +65,9 @@ body {
 }
 
 .main {
-	letter-spacing: 0px;
+	letter-spacing: -0.5px; /* Slightly decreased letter spacing to fit text */
 	font-family: "Inter", sans-serif;
-	width: 99%;
+	width: 100%; /* Ensure full width usage */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -75,4 +75,34 @@ body {
 	top: 0%;
 	position: absolute;
 	z-index: 99;
+	font-size: 14px; /* Reduced base font size to fit better */
+}
+
+.fixed-nav-bar .icon {
+	font-size: 18px; /* Adjusted font size to fit new width */
+	letter-spacing: 1px; /* Adjusted spacing for readability */
+}
+
+.fixed-nav-bar .icon:hover {
+	transform: translateY(-5%) scale(1.05);
+}
+
+.fixed-nav-bar-right .navbar-link {
+	font-size: 16px; /* Reduced font size for links */
+	letter-spacing: 1px; /* Adjusted spacing */
+	text-align: center; /* Ensure text is centered within links */
+	padding: 5px 0; /* Adjust padding for better spacing */
+}
+
+.fixed-nav-bar-right .navbar-link:hover {
+	font-size: 18px; /* Adjust hover size to fit within bounds */
+	transform: translateX(0%); /* Adjust hover effect */
+}
+
+@media (orientation: portrait) {
+	.fixed-nav-bar .icon,
+	.fixed-nav-bar-right .navbar-link {
+		font-size: 3vw; /* Responsive font size for portrait orientation */
+		letter-spacing: normal;
+	}
 }
