@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
 // Nav
 const nav = document.querySelector(".fixed-nav-bar");
 
+if (nav) {
+  const themeId = localStorage.getItem("theme");
+  let LogoUrl = ""; // Declare LogoUrl once
+  if (themeId === "Inverted") {
+    LogoUrl = "";
   }
   
   // Paths to the icons
