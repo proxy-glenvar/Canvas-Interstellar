@@ -36,9 +36,8 @@ if (nav) {
       <a class="navbar-link" href="/./gm"><img src="${accountIcon}" alt="Account" class="navbar-img" /></a>
       <a class="navbar-link" href="/./as"><img src="${dashboardIcon}" alt="Dashboard" class="navbar-img" /></a>
       <a class="navbar-link" href="/./ts"><img src="${coursesIcon}" alt="Courses" class="navbar-img" /></a>
-      <a class="navbar-link" href="/./cal"><img src="${calendarIcon}" alt="Calendar" class="navbar-img" /></a>
       ${window.top.location.pathname === "/ta" ? "" : '<a class="navbar-link" href="/./ta"><img src="' + inboxIcon + '" alt="Inbox" class="navbar-img" /></a>'}
-      <a class="navbar-link" href="/./st"><img src="${historyIcon}" alt="History" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./st"><img src="${CalendarIcon}" alt="Calendar" class="navbar-img" /></a>
     </div>`;
   nav.innerHTML = html;
 }
