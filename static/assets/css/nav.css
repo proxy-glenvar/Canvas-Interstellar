@@ -70,7 +70,7 @@ img {
     width: 84px; /* Match the image dimensions */
     height: 71px;
     display: block;
-    margin: -5px; /* Remove spacing between images */
+    margin: -10px; /* Remove spacing between images */
 }
 
 .fixed-nav-bar-right {
