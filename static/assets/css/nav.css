@@ -68,9 +68,9 @@ img {
 
 .navbar-img {
     width: 84px; /* Match the image dimensions */
-    height: 90px;
+    height: 71px;
     display: block;
-    margin: 0px; /* Remove spacing between images */
+    margin: -5px; /* Remove spacing between images */
 }
 
 .fixed-nav-bar-right {
