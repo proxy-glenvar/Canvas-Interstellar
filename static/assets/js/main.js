@@ -24,7 +24,6 @@ if (nav) {
   const coursesIcon = "/assets/media/favicon/courses.png";
   const calendarIcon = "/assets/media/favicon/calendar.png";
   const inboxIcon = "/assets/media/favicon/inbox.png";
-  const historyIcon = "/assets/media/favicon/history.png";
 
   const html = `
     <div class="fixed-nav-bar-container">
