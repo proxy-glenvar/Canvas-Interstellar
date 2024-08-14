@@ -38,15 +38,15 @@
 .search-container {
   position: absolute;
   top: 20px;
-  left: 130px;
+  left: 49px;
   z-index: 200;
   width: auto; /* Adjust the width as needed */
 }
 
 .main-search {
-  width: 300px; /* Adjust the input width as needed */
+  width: 200px; /* Adjust the input width as needed */
   padding: 10px;
-  font-size: 30px;
+  font-size: 40px;
   border-radius: 4px;
   border: 1px solid #fff;
 }
