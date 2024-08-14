@@ -11,7 +11,7 @@ const nav = document.querySelector(".fixed-nav-bar");
 
 if (nav) {
   const themeId = localStorage.getItem("theme");
-  let LogoUrl = "/assets/media/favicon/main.png"; // Declare LogoUrl once
+  let LogoUrl = "/assets/media/favicon/blank.png"; // Declare LogoUrl once
   if (themeId === "Inverted") {
     LogoUrl = "/assets/media/favicon/main-inverted.png";
   }
