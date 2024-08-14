@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// Nav
+const nav = document.querySelector(".fixed-nav-bar");
+
   // Paths to the icons
   const accountIcon = "/assets/media/favicon/account.png";
   const dashboardIcon = "/assets/media/favicon/dashboard.png";
