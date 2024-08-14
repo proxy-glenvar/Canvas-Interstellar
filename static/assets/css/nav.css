@@ -26,7 +26,7 @@ img
 
 #icon-container {
     position: absolute; /* Change to absolute for better positioning */
-    top: 8px; /* Align to the top of the navigation bar */
+    top: 0px; /* Align to the top of the navigation bar */
     left: 0px; /* Align to the left of the navigation bar */
     width: 84px; /* Match the width of the navigation bar */
     height: auto; /* Automatically adjust height */
