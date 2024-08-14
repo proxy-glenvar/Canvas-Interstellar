@@ -27,6 +27,7 @@
     height: 110px; /* Fixed height */
     z-index: 110; /* Ensure it's above other elements */
 }
+
 .fixed-nav-bar .icon {
     text-transform: uppercase;
     font-size: 10px; /* Reduced font size */
@@ -42,21 +43,31 @@
     align-items: center;
     flex-direction: column;
 }
+
 .fixed-nav-bar .icon:hover {
     font-weight: 800;
 }
+
 .fixed-nav-bar .navbar-icon {
     font-size: 20px; /* Fixed icon size */
     margin-bottom: 5px; /* Space between icon and text */
 }
+
 .fixed-nav-bar .navbar-link:hover {
     color: var(--hover-color);
 }
+
 .navbar-img {
-    width: 71px; /* Match the image dimensions */
-    height: 84px;
+    width: 84px; /* Match the image dimensions */
+    height: 71px;
     display: block;
     margin: -7px 0; /* Adjust spacing between images */
+}
+
+/* Specific rule for the image at /assets/media/favicon/main.png */
+.fixed-nav-bar .navbar-img[src='/assets/media/favicon/main.png'] {
+    height: 84px; /* Set height to match the specific image */
+    margin: 0; /* Adjust spacing specifically for this image */
 }
 
 .fixed-nav-bar-right {
@@ -67,17 +78,20 @@
     height: 100vh;
     padding: 15px 0; /* Adjust padding */
 }
+
 .fixed-nav-bar .navbar-link {
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 }
+
 @media (max-width: px) {
     .fixed-nav-bar-right .navbar-link {
         font-size: 4.5vw;
     }
 }
+
 @media (orientation: portrait) {
     img {
         height: 48px;
