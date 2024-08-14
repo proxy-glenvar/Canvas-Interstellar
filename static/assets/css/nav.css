@@ -19,21 +19,9 @@
     justify-content: flex-start; /* Align items at the top */
 }
 
-/* New CSS for the logo image */
-.fixed-nav-bar .logo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 84px; /* Match the width of the navbar */
-    height: auto; /* Keep aspect ratio */
-    z-index: 101; /* Ensure it's above the navbar but below other elements if needed */
-}
-
 #icon-container {
     position: fixed; /* Fixes the position on the page */
-    top: 84px; /* Position from the top */
+    top: 0px; /* Position from the top */
     left: 20px; /* Position from the left */
     width: 84px; /* Fixed width */
     height: 110px; /* Fixed height */
