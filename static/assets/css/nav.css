@@ -2,14 +2,6 @@
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
-.logo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-}
-
 .fixed-nav-bar {
     top: 0px;
     left: 0;
@@ -26,6 +18,19 @@
     align-items: top;
     justify-content: flex-start; /* Align items at the top */
 }
+
+/* New CSS for the logo image */
+.fixed-nav-bar .logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 84px; /* Match the width of the navbar */
+    height: auto; /* Keep aspect ratio */
+    z-index: 101; /* Ensure it's above the navbar but below other elements if needed */
+}
+
 #icon-container {
     position: fixed; /* Fixes the position on the page */
     top: 84px; /* Position from the top */
