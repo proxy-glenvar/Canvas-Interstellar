@@ -7,16 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("dy", "false");
   }
 });
-
-// Nav
-const nav = document.querySelector(".fixed-nav-bar");
-
-if (nav) {
-  const themeId = localStorage.getItem("theme");
-  let LogoUrl = "/assets/media/favicon/main.png"; // Declare LogoUrl once
-  if (themeId === "Inverted") {
-    LogoUrl = "/assets/media/favicon/main-inverted.png";
-  }
   
   // Paths to the icons
   const accountIcon = "/assets/media/favicon/account.png";
@@ -27,10 +17,6 @@ if (nav) {
   const emblemicon = "/assets/media/favicon/main.png";
   
   const html = `
-    <div class="fixed-nav-bar-container">
-      <div id="icon-container">
-        <a class="icon" href="/./"><img alt="nav" id="INImg" src="${LogoUrl}"/></a>
-      </div>
     </div>
     <div class="fixed-nav-bar-right">
       <a class="navbar-link" href="/./"><img src="${emblemicon}" alt="emblem" class="navbar-img" /></a>
