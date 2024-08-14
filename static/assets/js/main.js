@@ -24,6 +24,7 @@ if (nav) {
   const coursesIcon = "/assets/media/favicon/courses.png";
   const calendarIcon = "/assets/media/favicon/calendar.png";
   const inboxIcon = "/assets/media/favicon/inbox.png";
+  const emblemicon = "/assets/media/favicon/main.png";
   
   const html = `
     <div class="fixed-nav-bar-container">
@@ -32,6 +33,7 @@ if (nav) {
       </div>
     </div>
     <div class="fixed-nav-bar-right">
+      <a class="navbar-link" href="/./"><img src="${emblemicon}" alt="emblem" class="navbar-img" /></a>
       <a class="navbar-link" href="/./gm"><img src="${accountIcon}" alt="Account" class="navbar-img" /></a>
       <a class="navbar-link" href="/./as"><img src="${dashboardIcon}" alt="Dashboard" class="navbar-img" /></a>
       <a class="navbar-link" href="/./ts"><img src="${coursesIcon}" alt="Courses" class="navbar-img" /></a>
