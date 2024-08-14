@@ -53,22 +53,15 @@
     margin-bottom: 5px; /* Space between icon and text */
 }
 
-.fixed-nav-bar .navbar-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--text-primary);
-    text-decoration: none;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 12px; /* Adjusted the font size */
-    margin-bottom: 15px; /* Adjusted the spacing between links */
-    transition: color 0.2s ease;
-}
-
 .fixed-nav-bar .navbar-link:hover {
     color: var(--hover-color);
+}
+
+.navbar-img {
+    width: 84px; /* Match the image dimensions */
+    height: 71px;
+    display: block;
+    margin: 10px 0; /* Adjust spacing between images */
 }
 
 .fixed-nav-bar-right {
@@ -80,7 +73,14 @@
     padding: 15px 0; /* Adjust padding */
 }
 
-@media (max-width: 768px) {
+.fixed-nav-bar .navbar-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@media (max-width: px) {
     .fixed-nav-bar-right .navbar-link {
         font-size: 4.5vw;
     }
