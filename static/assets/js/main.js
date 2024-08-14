@@ -8,15 +8,25 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-//
-const = document.querySelector(".fixed-nav-bar");
+// Nav
+const nav = document.querySelector(".fixed-nav-bar");
 
-if () {
+if (nav) {
   const themeId = localStorage.getItem("theme");
-  let LogoUrl = ; // Declare LogoUrl once
+  let LogoUrl = "/assets/media/favicon/main.png"; // Declare LogoUrl once
   if (themeId === "Inverted") {
-    LogoUrl = ;
+    LogoUrl = "/assets/media/favicon/main-inverted.png";
   }
+
+  // Create the logo image element
+  const logoImg = document.createElement("img");
+  logoImg.src = LogoUrl;
+  logoImg.alt = "Logo";
+  logoImg.classList.add("logo");
+
+  // Append the image to the body or a specific container
+  document.body.appendChild(logoImg);
+}
   
   // Paths to the icons
   const accountIcon = "/assets/media/favicon/account.png";
