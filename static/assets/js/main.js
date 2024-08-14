@@ -17,12 +17,17 @@ if (nav) {
   }
   
   // Paths to the icons
+  const EmblemIcon = "/assets/media/favicon/main.png";
   const accountIcon = "/assets/media/favicon/account.png";
   const dashboardIcon = "/assets/media/favicon/dashboard.png";
   const coursesIcon = "/assets/media/favicon/courses.png";
   const calendarIcon = "/assets/media/favicon/calendar.png";
   const inboxIcon = "/assets/media/favicon/inbox.png";
-  const emblemicon = "/assets/media/favicon/main.png";
+  const HistoryIcon = "/assets/media/favicon/history.png";
+  const StudioIcon = "/assets/media/favicon/studio.png";
+  const MasteryIcon = "/assets/media/favicon/mastery.png";
+  const MediaIcon = "/assets/media/favicon/media.png";
+  const HelpIcon = "/assets/media/favicon/help.png";
   
   const html = `
         <div class="fixed-nav-bar-container">
@@ -32,11 +37,15 @@ if (nav) {
     </div>
     <div class="fixed-nav-bar-right">
       <a class="navbar-link" href="/./"><img src="${emblemicon}" alt="emblem" class="navbar-img" /></a>
-      <a class="navbar-link" href="/./gm"><img src="${accountIcon}" alt="Account" class="navbar-img" /></a>
-      <a class="navbar-link" href="/./as"><img src="${dashboardIcon}" alt="Dashboard" class="navbar-img" /></a>
-      <a class="navbar-link" href="/./ts"><img src="${coursesIcon}" alt="Courses" class="navbar-img" /></a>
-      ${window.top.location.pathname === "/ta" ? "" : '<a class="navbar-link" href="/./ta"><img src="' + inboxIcon + '" alt="Inbox" class="navbar-img" /></a>'}
-      <a class="navbar-link" href="/./st"><img src="${calendarIcon}" alt="Calendar" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./"><img src="${accountIcon}" alt="Account" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./"><img src="${dashboardIcon}" alt="Dashboard" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./"><img src="${coursesIcon}" alt="Courses" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./"><img src="${inboxicon}" alt="Inbox" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./"><img src="${HistoryIcon}" alt="History" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./gm"><img src="${StudioIcon}" alt="Studio" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./as"><img src="${MasteryIcon}" alt="Mastery" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./ts"><img src="${MediaIcon}" alt="Media" class="navbar-img" /></a>
+      ${window.top.location.pathname === "/ta" ? "" : '<a class="navbar-link" href="/./ta"><img src="' + HelpIcon + '" alt="Help" class="navbar-img" /></a>'}
     </div>`;
   nav.innerHTML = html;
 }
