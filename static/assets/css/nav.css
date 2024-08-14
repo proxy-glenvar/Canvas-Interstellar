@@ -24,10 +24,10 @@ img {
 }
 #icon-container {
     position: fixed; /* Fixes the position on the page */
-    top: 20px; /* Position from the top */
+    top: 40px; /* Position from the top */
     left: 20px; /* Position from the left */
-    width: 80px; /* Fixed width */
-    height: 80px; /* Fixed height */
+    width: 84px; /* Fixed width */
+    height: 60px; /* Fixed height */
     z-index: 110; /* Ensure it's above other elements */
 }
 .fixed-nav-bar .icon {
@@ -59,8 +59,7 @@ img {
     width: 84px; /* Match the image dimensions */
     height: 71px;
     display: block;
-    margin: 10px 0; /* Adjust spacing between images */
-    margin: 0px 0; /* Adjust spacing between images */
+    margin: -5px 0; /* Adjust spacing between images */
 }
 
 .fixed-nav-bar-right {
