@@ -78,6 +78,33 @@ body {
 	font-size: 14px; /* Reduced base font size to fit better */
 }
 
+/* --- New Styles to Hide the Input Box but Keep the Placeholder Visible --- */
+.main-search {
+  width: auto; /* Adjust based on placeholder text length */
+  padding: 0; /* Remove padding */
+  font-size: 30px; /* Adjust the size to match your design */
+  border: none; /* Remove border */
+  background-color: transparent; /* Make background transparent */
+  color: transparent; /* Hide the text color */
+  caret-color: transparent; /* Hide the caret */
+  pointer-events: none; /* Make input unclickable */
+}
+
+.main-search::placeholder {
+  color: var(--text-placeholder); /* Keep placeholder text color */
+  opacity: 1; /* Ensure placeholder is visible */
+  font-size: 30px; /* Adjust font size */
+}
+
+.search-container {
+  position: absolute;
+  top: 20px;
+  left: 130px;
+  z-index: 200;
+  width: auto; /* Adjust the width as needed */
+}
+/* ------------------------------------------------------------------------- */
+
 .fixed-nav-bar .icon {
 	font-size: 18px; /* Adjusted font size to fit new width */
 	letter-spacing: 1px; /* Adjusted spacing for readability */
