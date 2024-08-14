@@ -45,7 +45,7 @@
 
 .main-search {
   width: 200px; /* Adjust the input width as needed */
-  padding: 10px;
+  padding: 5px;
   font-size: 40px;
   color: var(--text-primary);
   border-radius: 4px;
