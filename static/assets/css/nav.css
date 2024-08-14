@@ -62,7 +62,7 @@
     width: 84px; /* Match the image dimensions */
     height: 71px;
     display: block;
-    margin: -7px 0; /* Adjust spacing between images */
+    margin: -5px 0; /* Adjust spacing between images */
 }
 
 .fixed-nav-bar .navbar-img[src='/assets/media/favicon/main.png'] {
@@ -71,7 +71,7 @@
 }
 
 .fixed-nav-bar .navbar-img[src='/assets/media/favicon/collapse.png'] {
-    margin-top: auto;
+    margin-top: 140px;
     height: 71px;
     width: 84px;
 }
