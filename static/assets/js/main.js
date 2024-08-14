@@ -24,8 +24,8 @@ if (nav) {
   logoImg.alt = "Logo";
   logoImg.classList.add("logo");
 
-  // Append the image to the body or a specific container
-  document.body.appendChild(logoImg);
+  // Append the image to the nav bar so it doesn't interfere with other elements
+  nav.appendChild(logoImg);
 }
   
   // Paths to the icons
