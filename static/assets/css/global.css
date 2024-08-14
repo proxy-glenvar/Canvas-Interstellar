@@ -17,8 +17,8 @@
 	--slider-inactive-background: #121212; /*  Slider Background Color */
 	--nav-image: url("/./assets/media/favicon/main.png"); /* Nav Logo */
 	/* Text Variables */
-	--text-primary: #ff0000; /* Primary Text Color */
-	--text-dark: #ff0000; /* Dark Text Color for Error Page, Scrollbar, and Particles */
+	--text-primary: #121212; /* Primary Text Color */
+	--text-dark: #121212; /* Dark Text Color for Error Page, Scrollbar, and Particles */
 	--text-placeholder: #121212; /* Placeholder Text Color */
 	/* Other Variables */
 	--save-button: #ff0000; /* Save Button, Typically Green */
