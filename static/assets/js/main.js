@@ -33,7 +33,7 @@ if (nav) {
       </div>
     </div>
     <div class="fixed-nav-bar-right">
-      <a class="navbar-link" href="canvas-timeline.onrender.com"><img src="${emblemicon}" alt="emblem" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./"><img src="${emblemicon}" alt="emblem" class="navbar-img" /></a>
       <a class="navbar-link" href="/./gm"><img src="${accountIcon}" alt="Account" class="navbar-img" /></a>
       <a class="navbar-link" href="/./as"><img src="${dashboardIcon}" alt="Dashboard" class="navbar-img" /></a>
       <a class="navbar-link" href="/./ts"><img src="${coursesIcon}" alt="Courses" class="navbar-img" /></a>
