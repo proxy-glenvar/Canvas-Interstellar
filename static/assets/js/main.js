@@ -8,14 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// Nav
-const nav = document.querySelector(".fixed-nav-bar");
+//
+const = document.querySelector(".fixed-nav-bar");
 
-if (nav) {
+if () {
   const themeId = localStorage.getItem("theme");
-  let LogoUrl = ""; // Declare LogoUrl once
+  let LogoUrl = ; // Declare LogoUrl once
   if (themeId === "Inverted") {
-    LogoUrl = "";
+    LogoUrl = ;
   }
   
   // Paths to the icons
