@@ -53,8 +53,8 @@
     color: var(--hover-color);
 }
 .navbar-img {
-    width: 100%; /* Match the image dimensions */
-    height: 100%;
+    width: 71px; /* Match the image dimensions */
+    height: 84px;
     display: block;
     margin: -7px 0; /* Adjust spacing between images */
 }
