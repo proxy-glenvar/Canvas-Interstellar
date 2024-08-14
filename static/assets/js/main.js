@@ -17,6 +17,15 @@ if (nav) {
   if (themeId === "Inverted") {
     LogoUrl = "/assets/media/favicon/main-inverted.png";
   }
+
+  // Paths to the icons
+  const accountIcon = "/assets/media/favicon/account.png";
+  const dashboardIcon = "/assets/media/favicon/dashboard.png";
+  const coursesIcon = "/assets/media/favicon/courses.png";
+  const calendarIcon = "/assets/media/favicon/calendar.png";
+  const inboxIcon = "/assets/media/favicon/inbox.png";
+  const historyIcon = "/assets/media/favicon/history.png";
+
   const html = `
     <div class="fixed-nav-bar-container">
       <div id="icon-container">
@@ -24,11 +33,12 @@ if (nav) {
       </div>
     </div>
     <div class="fixed-nav-bar-right">
-      <a class="navbar-link" href="/./gm"><i class="fa-solid fa-gamepad navbar-icon"></i><span>Account</span></a>
-      <a class="navbar-link" href="/./as"><i class="fa-solid fa-phone navbar-icon"></i><span>Dashboard</span></a>
-      <a class="navbar-link" href="/./ts"><i class="fa-solid fa-folder navbar-icon"></i><span>Calendar</span></a>
-      ${window.top.location.pathname === "/ta" ? "" : '<a class="navbar-link" href="/./ta"><i class="fa-solid fa-laptop navbar-icon"></i><span>Inbox</span></a>'}
-      <a class="navbar-link" href="/./st"><i class="fa-solid fa-gear navbar-icon settings-icon"></i><span>History</span></a>
+      <a class="navbar-link" href="/./gm"><img src="${accountIcon}" alt="Account" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./as"><img src="${dashboardIcon}" alt="Dashboard" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./ts"><img src="${coursesIcon}" alt="Courses" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./cal"><img src="${calendarIcon}" alt="Calendar" class="navbar-img" /></a>
+      ${window.top.location.pathname === "/ta" ? "" : '<a class="navbar-link" href="/./ta"><img src="' + inboxIcon + '" alt="Inbox" class="navbar-img" /></a>'}
+      <a class="navbar-link" href="/./st"><img src="${historyIcon}" alt="History" class="navbar-img" /></a>
     </div>`;
   nav.innerHTML = html;
 }
