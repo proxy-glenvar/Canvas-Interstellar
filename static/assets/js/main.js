@@ -8,16 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// Nav
-const nav = document.querySelector(".fixed-nav-bar");
-
-if (nav) {
-  const themeId = localStorage.getItem("theme");
-  let LogoUrl = "/assets/media/favicon/main.png"; // Declare LogoUrl once
-  if (themeId === "Inverted") {
-    LogoUrl = "/assets/media/favicon/main-inverted.png";
-  }
-
   // Paths to the icons
   const accountIcon = "/assets/media/favicon/account.png";
   const dashboardIcon = "/assets/media/favicon/dashboard.png";
