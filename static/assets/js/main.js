@@ -17,16 +17,6 @@ if (nav) {
   if (themeId === "Inverted") {
     LogoUrl = "/assets/media/favicon/main-inverted.png";
   }
-
-  // Create the logo image element
-  const logoImg = document.createElement("img");
-  logoImg.src = LogoUrl;
-  logoImg.alt = "Logo";
-  logoImg.classList.add("logo");
-
-  // Append the image to the nav bar so it doesn't interfere with other elements
-  nav.appendChild(logoImg);
-}
   
   // Paths to the icons
   const accountIcon = "/assets/media/favicon/account.png";
