@@ -65,14 +65,15 @@
     margin: -7px 0; /* Adjust spacing between images */
 }
 
-/* Specific rule for the image at /assets/media/favicon/main.png */
 .fixed-nav-bar .navbar-img[src='/assets/media/favicon/main.png'] {
-    height: 84px; /* Set height to match the specific image */
-    margin: -2px; /* Adjust spacing specifically for this image */
+    height: 84px;
+    margin: 0px;
+}
 
 .fixed-nav-bar .navbar-img[src='/assets/media/favicon/collapse.png'] {
-    bottom: 0px;
-    margin: 0; /* Adjust spacing specifically for this image */
+    margin-top: auto;
+    height: 71px;
+    width: 84px;
 }
 
 .fixed-nav-bar-right {
