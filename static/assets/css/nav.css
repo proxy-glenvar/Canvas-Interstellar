@@ -12,7 +12,7 @@ img[src="static/assets/media/favicon/main.png"] {
 }
 
 .fixed-nav-bar {
-    top: 84px;
+    top: 0px;
     left: 0;
     bottom: 0;
     width: 84px; /* Adjusted width */
@@ -29,10 +29,10 @@ img[src="static/assets/media/favicon/main.png"] {
 }
 #icon-container {
     position: fixed; /* Fixes the position on the page */
-    top: 40px; /* Position from the top */
+    top: 84px; /* Position from the top */
     left: 20px; /* Position from the left */
     width: 84px; /* Fixed width */
-    height: 80px; /* Fixed height */
+    height: 110px; /* Fixed height */
     z-index: 110; /* Ensure it's above other elements */
 }
 .fixed-nav-bar .icon {
