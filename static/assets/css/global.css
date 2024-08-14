@@ -6,20 +6,20 @@
 	--background-image: url("/./assets/media/background/full-main.png"); /* Background Image */
 	--backdrop-filter: blur(10px) brightness(80%); /* Nav Backdrop filter */
 	--background-nav: rgba(255, 255, 255, 0.02); /* Nav Background */
-	--background-color: #f0f0f0; /* Main Background Color */
+	--background-color: #fff; /* Main Background Color */
 	--background-input: #fff; /* Input Field Background Color */
-	--background-column: #cccccc; /* Background for Apps Container */
-	--background-settings: #cccccc; /* Settings Card Background */
+	--background-column: #fff; /* Background for Apps Container */
+	--background-settings: #fff; /* Settings Card Background */
 	--background-buttons: #949494; /* Button Background Color */
-	--tab-active-background: #f0f0f0; /* Accent Color for Tabs */
-	--tab-inactive-background: #cccccc; /* Background Color for Tabs Not In Use */
-	--slider-active-background: #949494; /* Active Slider Background Color */
-	--slider-inactive-background: #cccccc; /*  Slider Background Color */
+	--tab-active-background: #121212; /* Accent Color for Tabs */
+	--tab-inactive-background: #fff; /* Background Color for Tabs Not In Use */
+	--slider-active-background: #121212; /* Active Slider Background Color */
+	--slider-inactive-background: #121212; /*  Slider Background Color */
 	--nav-image: url("/./assets/media/favicon/main.png"); /* Nav Logo */
 	/* Text Variables */
 	--text-primary: #ff0000; /* Primary Text Color */
 	--text-dark: #ff0000; /* Dark Text Color for Error Page, Scrollbar, and Particles */
-	--text-placeholder: #ff0000; /* Placeholder Text Color */
+	--text-placeholder: #121212; /* Placeholder Text Color */
 	/* Other Variables */
 	--save-button: #ff0000; /* Save Button, Typically Green */
 	--reset-button: #ff0000; /* Reset Button, Typically Red */
@@ -70,8 +70,8 @@ body {
 	width: 100%; /* Ensure full width usage */
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: right;
+	align-items: right;
 	top: 0%;
 	position: absolute;
 	z-index: 99;
