@@ -11,10 +11,10 @@
 	--background-column: #fff; /* Background for Apps Container */
 	--background-settings: #fff; /* Settings Card Background */
 	--background-buttons: #949494; /* Button Background Color */
-	--tab-active-background: #121212; /* Accent Color for Tabs */
-	--tab-inactive-background: #fff; /* Background Color for Tabs Not In Use */
-	--slider-active-background: #121212; /* Active Slider Background Color */
-	--slider-inactive-background: #121212; /*  Slider Background Color */
+	--tab-active-background: #d9d9d9; /* Accent Color for Tabs */
+	--tab-inactive-background: #a8a8a8; /* Background Color for Tabs Not In Use */
+	--slider-active-background: #d9d9d9; /* Active Slider Background Color */
+	--slider-inactive-background: #a8a8a8; /*  Slider Background Color */
 	--nav-image: url("/./assets/media/favicon/main.png"); /* Nav Logo */
 	/* Text Variables */
 	--text-primary: #121212; /* Primary Text Color */
