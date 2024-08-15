@@ -42,11 +42,11 @@ if (nav) {
       <a class="navbar-link" href="/./"><img src="${DashboardIcon}" alt="Dashboard" class="navbar-img" /></a>
       <a class="navbar-link" href="/./"><img src="${CoursesIcon}" alt="Courses" class="navbar-img" /></a>
       <a class="navbar-link" href="/./"><img src="${InboxIcon}" alt="Inbox" Class="navbar-img" /></a>
-      <a class="navbar-link" href="/./gm"><img src="${HistoryIcon}" alt="History" class="navbar-img" /></a>
-      <a class="navbar-link" href="/./as"><img src="${StudioIcon}" alt="Studio" class="navbar-img" /></a>
-      <a class="navbar-link" href="/./ts"><img src="${MasteryIcon}" alt="Mastery" class="navbar-img" /></a>
-      <a class="navbar-link" href="/./st"><img src="${MediaIcon}" alt="Media" class="navbar-img" /></a>
-      ${window.top.location.pathname === "/ta" ? "" : '<a class="navbar-Link" href="/./ta"><img src="' + HelpIcon + '" alt="Help" class="navbar-img" /></a>'}
+      <a class="navbar-link" href="/./"><img src="${HistoryIcon}" alt="History" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./gm"><img src="${StudioIcon}" alt="Studio" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./as"><img src="${MasteryIcon}" alt="Mastery" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./ts"><img src="${MediaIcon}" alt="Media" class="navbar-img" /></a>
+      <a class="navbar-link" href="/./st"><img src="${HelpIcon}" alt="Help" class="navbar-img" /></a>
       <a class="navbar-link" href="/./"><img src="${CollapseIcon}" alt="Collapse" class="navbar-img" /></a>
     </div>`;
   nav.innerHTML = html;
